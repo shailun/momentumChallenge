@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script&family=Hi+Melody&display=swap');
+
+input, input:focus, input:focus-visible{
+    border:0;
+    outline: 0;
+    margin: 0 auto;
+    border-bottom: 2px solid #000;
+    background-color: rgba(255,255,255,0);
+}
+button{
+    border: 0;
+    background-color: rgba( 255, 255, 255, 0 );
+    cursor:pointer;
+}
+ul{
+    list-style: none;
+    width: 80%;
+    margin: 50px auto 0;
+    text-align: left;
+}
+
+.hidden{
+    display: none;
+}
+.dd{
+    
+font-family: 'Dancing Script', cursive;
+
+}
+
+body{
+    font-family: 'Akaya Telivigala', cursive;
+    background-position: center;
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+#quote{
+    font-family: 'Dancing Script', cursive;
+    margin-top:30px;
+}
+#quote span{
+    display: block;
+    font-size: 24px;
+}
+#quote span:last-child{
+    font-size: 18px;
+}
+
+#login-form input{
+    line-height: 24px;
+    margin-bottom:20px;
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding-bottom:50px;
+}
+.w-60{
+    width: 60%;
+    margin:0 auto;
+}
+.main{
+    padding-top:240px;
+}
+
+#weather{
+    width: 110px;
+    height: 220px;
+    text-align: center;
+    position:absolute;
+    right: 0;
+    top: 0;
+}
+#weather span{margin-top:20px;}
+#weather span:first-child{
+    display: block;
+}
+.text-center{
+    text-align: center;
+}
+#todo-list li{
+    font-family: 'Hi Melody', cursive;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
